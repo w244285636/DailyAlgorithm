@@ -1,4 +1,4 @@
-package cn.wukai.algorithm;
+package cn.wukai.algorithm.arrays;
 
 public class RemoveDuplicatesSortArrayII {
 
