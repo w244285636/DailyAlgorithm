@@ -7,11 +7,21 @@ package cn.wukai.algorithm.listnode;
  */
 public class ListNode {
 
-	public ListNode head;
-	public ListNode next;
+	public ListNode left;
+	public ListNode right;
 	public int val;
 	
 	public ListNode(int val) {
+		this.val = val;
+	}
+	
+	public ListNode() {
+		
+	}
+	
+	public ListNode(ListNode left,ListNode right, int val) {
+		this.left = left;
+		this.right = right;
 		this.val = val;
 	}
 	
