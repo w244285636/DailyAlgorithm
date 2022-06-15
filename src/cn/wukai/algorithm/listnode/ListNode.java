@@ -1,7 +1,7 @@
 package cn.wukai.algorithm.listnode;
 
 /**
- * Á´±í
+ * é“¾è¡¨
  * @author wukai
  *
  */

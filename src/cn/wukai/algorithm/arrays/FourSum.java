@@ -11,7 +11,7 @@ import java.util.Set;
 public class FourSum {
 
 	/**
-	 * Ö±½Ó±©Á¦¼Ð±ÆËã·¨
+	 *ç›´æŽ¥å¤¹é€¼è®¡ç®—
 	 * @param nums
 	 * @param target
 	 * @return
@@ -21,7 +21,7 @@ public class FourSum {
 		if(null == nums || nums.length < 4) {
 			return ans;
 		}
-		//ÏÈÅÅÐò
+		//å…ˆæŽ’åº
 		Arrays.sort(nums);
 		for (int i = 0; i < nums.length - 3; i++) {
 			if(i > 0 && nums[i] == nums[i - 1]) continue;
@@ -62,7 +62,7 @@ public class FourSum {
 	}
 	
 	/**
-	 * Ê¹ÓÃ¹þÏ£±í¼ÇÂ¼
+	 * ä½¿ç”¨å“ˆå¸Œè¡¨
 	 * @param nums
 	 * @param target
 	 * @return

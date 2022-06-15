@@ -16,7 +16,7 @@ public class TwoSum {
 	}
 	
 	/**
-	 * ±©Á¦½â·¨ o(n2) ³¬Ê±
+	 * æš´åŠ›è§£æ³•
 	 * @param nums
 	 * @param taget
 	 * @return
@@ -41,7 +41,7 @@ public class TwoSum {
 	}
 	
 	/**
-	 * ÓÃhash±í¼ÇÂ¼
+	 * ä½¿ç”¨å“ˆå¸Œè¡¨
 	 * @param nums
 	 * @param taget
 	 * @return
