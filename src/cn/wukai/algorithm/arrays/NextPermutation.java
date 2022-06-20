@@ -9,8 +9,8 @@ package cn.wukai.algorithm.arrays;
 public class NextPermutation {
 
 	public static void main(String[] args) {
-		//int[] nums = {6,8,7,4,3,2};
-		int[] nums = {8,5,4,2,1};
+		int[] nums = {6,8,7,4,3,2};
+		//int[] nums = {8,5,4,2,1};
 		solution(nums);
 		for (int i : nums) {
 			System.out.print(i + " ");
@@ -48,7 +48,7 @@ public class NextPermutation {
 			//已经最大倒序排序
 			return reverseNums(nums, 0, nums.length - 1);
 		}
-		
+		left = p;
 		System.out.println("left" + left);
 		//find right
 		for (int i = nums.length -1; i >= 0; i--) {
