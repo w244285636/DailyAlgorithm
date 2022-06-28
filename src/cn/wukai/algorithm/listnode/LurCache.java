@@ -50,8 +50,8 @@ public class LurCache {
 		} else {
 			Node newNode = new Node(key, value);
 			if(map.size() >= capacity) {
-				Node endNode = map.get(end);
-				remove(endNode);
+				map.remove(end.key);
+				remove(end);
 				setHead(newNode);
 			} else {
 				
