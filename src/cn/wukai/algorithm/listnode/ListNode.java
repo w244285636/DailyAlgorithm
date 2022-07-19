@@ -1,14 +1,13 @@
 package cn.wukai.algorithm.listnode;
 
 /**
- * 链表
+ * 单项链表
  * @author wukai
  *
  */
 public class ListNode {
 
-	public ListNode left;
-	public ListNode right;
+	public ListNode next;
 	public int val;
 	
 	public ListNode(int val) {
@@ -19,10 +18,9 @@ public class ListNode {
 		
 	}
 	
-	public ListNode(ListNode left,ListNode right, int val) {
-		this.left = left;
-		this.right = right;
+	public ListNode(ListNode next, int val) {
 		this.val = val;
+		this.next = next;
 	}
 	
 }
