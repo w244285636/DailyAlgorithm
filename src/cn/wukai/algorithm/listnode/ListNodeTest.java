@@ -22,7 +22,9 @@ public class ListNodeTest {
 		a3.next = a4;
 		a4.next = a5;
 		
-		ListNode list = AddTwoNumbers.solution(l1, a1);
+		
+		ListNode list = ReverseLinkedListII.solution(l1, 2,4);
+		//ListNode list = AddTwoNumbers.solution(l1, a1);
 		
 		//ListNode list = OddEvenLinkedList.solution(l1);
 		while(null != list) {
