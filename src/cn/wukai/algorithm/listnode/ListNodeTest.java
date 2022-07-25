@@ -21,9 +21,19 @@ public class ListNodeTest {
 		a2.next = a3;
 		a3.next = a4;
 		a4.next = a5;
+		ListNode s1 = new ListNode(1);
+		ListNode s2 = new ListNode(1);
+		ListNode s3 = new ListNode(2);
+		ListNode s4 = new ListNode(3);
+		ListNode s5 = new ListNode(3);
+		s1.next = s2;
+		s2.next = s3;
+		s3.next = s4;
+		s4.next = s5;
 		
+		ListNode list = RemoveDuplicatesfromSortedListII.solution(s1);
 		
-		ListNode list = ReverseLinkedListII.solution(l1, 2,4);
+		//ListNode list = ReverseLinkedListII.solution(l1, 2,4);
 		//ListNode list = AddTwoNumbers.solution(l1, a1);
 		
 		//ListNode list = OddEvenLinkedList.solution(l1);
