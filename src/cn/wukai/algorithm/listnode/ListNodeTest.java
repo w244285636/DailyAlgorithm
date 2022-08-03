@@ -31,7 +31,7 @@ public class ListNodeTest {
 		s3.next = s4;
 		s4.next = s5;
 		
-		ListNode list = RemoveDuplicatesfromSortedListII.solution(s1);
+		ListNode list = RotateList.solution(a1,2);
 		
 		//ListNode list = ReverseLinkedListII.solution(l1, 2,4);
 		//ListNode list = AddTwoNumbers.solution(l1, a1);
